@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color:  #ecf0f1 ;
+}
+
+
+
+/* *******************    Header   ************************ */
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+
+.logo {
+  position: absolute;
+  left: 5rem;
+  top: 20px;
+  z-index: 200;
+  font-size: 2rem;
+  font-family: 'Sriracha', sans-serif;
+}
+
+
+.App{
+  display: flex;
+  margin: 3rem 0;
+}
+.img1{
+  margin: 0 0.9rem;
+}
+.h-right{
+  flex: 0.7;
+  margin: 9rem 0;
+  margin-left: 6rem;
+}
+.para{
+  margin-top: 1rem;
+  color:   #515a5a ;
+}
+.heading{
+  color: #6350af;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+
+/* *******************    Hamburger Menu   ************************ */
+
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: absolute;
+  width: 30px;
+  height: 25px;
+  right: 36px;
+  top: 24px;
+  z-index: 100;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #6350af;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #6350af;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+  background-color: #373a47;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  color: #6350af !important;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: absolute;
+  height: 100%;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+
+/* Wrapper for item list */
+.bm-item-list {
+  background-color: #373a47;
+  padding: 0.8em;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  margin: 40px 0;
+  font-size: 2rem;
+  outline: none;
+}
+.bm-item:hover{
+  color:#48c9b0;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: transparent !important;
+}  
+
+
+@media (max-width: 500px){
+  .logo{
+    left: 1rem;
+  }
+  .bm-burger-button{
+    right: 1rem;
+  }
+}
