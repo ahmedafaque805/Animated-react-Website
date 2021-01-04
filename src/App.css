@@ -1,8 +1,8 @@
 *{
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color:  #ecf0f1 ;
+  scroll-behavior: smooth
 }
 
 
@@ -18,30 +18,14 @@
   top: 20px;
   z-index: 200;
   font-size: 2rem;
-  font-family: 'Sriracha', sans-serif;
+  background-color: transparent;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
 }
 
 
-.App{
+.line{
   display: flex;
-  margin: 3rem 0;
-}
-.img1{
-  margin: 0 0.9rem;
-}
-.h-right{
-  flex: 0.7;
-  margin: 9rem 0;
-  margin-left: 6rem;
-}
-.para{
-  margin-top: 1rem;
-  color:   #515a5a ;
-}
-.heading{
-  color: #6350af;
-  font-size: 60px;
-  font-weight: 600;
+  justify-content: center;
 }
 
 
@@ -122,11 +106,297 @@ Note: Beware of modifying this element as it can break the animations - you shou
 }  
 
 
+
+
+/* *******************    Home   ************************ */
+
+.App{
+  display: flex;
+  margin-top: 3rem;
+}
+.img1{
+  margin: 0 1.1rem;
+}
+.h-right{
+  flex: 0.7;
+  margin: 9rem 0;
+  margin-left: 6rem;
+}
+.para{
+  margin-top: 1rem;
+  color:   #515a5a ;
+}
+.heading{
+  color: #6350af;
+  font-size: 60px;
+  font-weight: 600;
+}
+
+
+/* *******************    About   ************************ */
+
+
+.About{
+  display: flex;
+  margin: 3rem 0;
+}
+.img2{
+  margin-left: 5rem;
+}
+.a-left{
+  flex: 0.7;
+  margin-top: 2rem;
+  margin-left: 6rem;
+}
+.para{
+  margin-top: 1rem;
+  color:   #515a5a ;
+}
+
+
+
+
+/* *******************    Skills   ************************ */
+
+
+
+.Development-skills{
+  display: flex;
+  justify-content: center;
+  margin: 7rem 0;
+}
+.Designing-skills{
+  display: flex;
+  justify-content: center;
+  margin: 7rem 0;
+}
+.skills{
+  font-Size: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  background-color: white;
+  margin-left: -1rem;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.D-skills{
+  background-color: white;
+  padding: 15px;
+  border-radius: 50%;
+  height: 80px;
+  margin-left: -1rem;
+  box-shadow: 0px 2px 4px -1px rgba(0,0,0,0.2),0px 4px 5px 0px rgba(0,0,0,0.14),0px 1px 10px 0px rgba(0,0,0,0.12);
+}
+.html5:hover{
+  color: white !important;
+  background-color: #dd4b25;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.linux:hover{
+  color: white !important;
+  background-color:#f7b20c;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.css3:hover{
+  color: white !important;
+  background-color:#29a3d6 ;
+  margin-left: 0;
+  margin-right: 1rem;
+}
+.js:hover{
+  color: white !important;
+  background-color:#f5d33c;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.github:hover{
+  color: white !important;
+  background-color:#302f2f ;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.docker:hover{
+  color: white !important;
+  background-color:#0997e5 ;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.Kuber:hover{
+  color: white !important;
+  background-color:#2f73db;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.rust:hover{
+  color: white !important;
+  background-color:#000000 ;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.npm:hover{
+  color: white !important;
+  background-color:#c53635 ;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.nodejs:hover{
+  color: white !important;
+  background-color:#7fc728 ;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.bootstrap:hover{
+  color: white !important;
+  background-color:#8210f5 ;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.react:hover{
+  color: white !important;
+  background-color: #5ed3f3;
+  margin-left: 0rem;
+  margin-right: 1rem;
+}
+.adobe-xd:hover{
+  margin-left: 0rem;
+  margin-right: 1rem;
+  background-color:  #ff00f9;
+}
+.adobe-p:hover{
+  margin-left: 0rem;
+  margin-right: 1rem;
+  background-color:  #4b92ff;
+}
+.adobe-i:hover{
+  margin-left: 0rem;
+  margin-right: 1rem;
+  background-color:#ffa000  ;
+}
+.figma:hover{
+  margin-left: 0rem;
+  margin-right: 1rem;
+  background-color: #333333;
+}
+
+
+
+/* *******************    Projects   ************************ */
+
+.M-card{
+  margin: 5rem 5rem;
+  border-radius: 2rem !important;
+  
+}
+
+.M-card-c{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  background-color:  #f4f6f7  !important;
+  
+}
+
+.P-img{
+  width: 100%;
+  height: 250px;
+}
+.i-card{
+  border-radius: 50px !important;
+}
+.i-card-c{
+  background-color:  #f4f6f7 !important;
+}
+
+.btn1{
+  margin: 1rem;
+  width: 100px;
+}
+
+
+/* *******************    Contact Me   ************************ */
+
+
+.C-app{
+  display: flex;
+}
+.C-right{
+  flex: 0.7;
+  margin: 3rem 2rem;
+}
+.C-left{
+  margin: 3rem 0 3rem 9rem;
+  flex: 0.3;
+}
+.C-head{
+  font-weight: 900;
+  font-size: 100px;
+  color: #8210f5;
+}
+.C-card{
+  border-radius: 50px !important;
+}
+.C-card-c{
+  background-color: white !important;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.text{
+  background-color: transparent;
+  border: #ecf0f1 solid 1px;
+  padding: 1rem;
+  border-radius: 50px;
+  color: #6a5acd;
+}
+.text-a{
+  background-color: transparent;
+  border: #ecf0f1 solid 1px;
+  padding: 1rem;
+  color: #6a5acd;
+  border-radius: 20px;
+}
+.C-button{
+  background-color: #6a5acd;
+  color: white;
+  border: #ecf0f1 solid 1px;
+  padding: 1rem;
+  border-radius: 50px;
+}
+.C-button:hover{
+  background-color: #695acdef;
+}
+/* *******************    Media Querry   ************************ */
+
+
+
+
 @media (max-width: 500px){
   .logo{
     left: 1rem;
   }
   .bm-burger-button{
     right: 1rem;
+  }
+  .img1{
+    width: 300px;
+    height: 260px;
+    margin:0rem 1rem 0 1.8rem;
+    opacity: 60%;
+  }
+  .App{
+    display: flex;
+    flex-direction: column;
+  }
+  .h-right{
+    margin: 1.5rem;
+  }
+  .heading{
+    font-size: 40px;
+  }
+  .Development-skills{
+    margin: 3rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 0fr);
   }
 }
