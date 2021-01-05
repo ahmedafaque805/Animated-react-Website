@@ -11,13 +11,13 @@ function Skills() {
     return (
         <div id="Skills">
             <div className="line">
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
                 <RemoveIcon style={{ fontSize: 40 }} />
                 <h3 style={{ margin: "0 1rem" }}>Development Skills</h3>
                 <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
             </div>
 
             <div className="Development-skills"  >
@@ -36,13 +36,13 @@ function Skills() {
             </div>
 
             <div className="line">
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
                 <RemoveIcon style={{ fontSize: 40 }} />
                 <h3 style={{ margin: "0 1rem" }}>Designing Skills</h3>
                 <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
             </div>
 
 

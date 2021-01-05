@@ -7,13 +7,13 @@ function About() {
         <div  id="About" >
             
             <div className="line">
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
                 <RemoveIcon style={{ fontSize: 40 }} />
                 <h3 style={{ margin: "0 1rem" }}>About Me</h3>
                 <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
             </div>
 
 

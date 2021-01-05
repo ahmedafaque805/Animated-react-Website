@@ -8,13 +8,13 @@ function Contact() {
         <div id="Contact">
 
             <div className="line">
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
                 <RemoveIcon style={{ fontSize: 40 }} />
                 <h3 style={{ margin: "0 1rem" }}>Contact Me</h3>
                 <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
             </div>
 
             <div className="C-app">

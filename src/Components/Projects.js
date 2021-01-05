@@ -11,13 +11,13 @@ function Projects() {
         <div id="Projects">
 
             <div className="line">
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
                 <RemoveIcon style={{ fontSize: 40 }} />
                 <h3 style={{ margin: "0 1rem" }}>Projects</h3>
                 <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
-                <RemoveIcon style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
+                <RemoveIcon className="R-line" style={{ fontSize: 40 }} />
             </div>
 
 
